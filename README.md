@@ -57,3 +57,5 @@ cd
 ```
 ```
 sudo mongorestore --db=genieacs --drop genieacs-backup/genieacs
+Genieacs port change
+sudo nano /usr/bin/genieacs-ui
