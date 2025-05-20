@@ -9,7 +9,7 @@ apt install git curl -y
 git clone https://github.com/tapasmodak642/acs.git
 ```
 ```
-cd genieacs
+cd acs
 ```
 ```
 chmod +x install.sh && chmod +x darkmode.sh
