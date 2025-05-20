@@ -4,11 +4,11 @@ NC='\033[0m'
 local_ip=$(hostname -I | awk '{print $1}')
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
-echo -e "${GREEN}=========== AAA   LL      IIIII     JJJ   AAA   YY   YY   AAA ==============${NC}"   
-echo -e "${GREEN}========== AAAAA  LL       III      JJJ  AAAAA  YY   YY  AAAAA =============${NC}" 
-echo -e "${GREEN}========= AA   AA LL       III      JJJ AA   AA  YYYYY  AA   AA ============${NC}"
-echo -e "${GREEN}========= AAAAAAA LL       III  JJ  JJJ AAAAAAA   YYY   AAAAAAA ============${NC}"
-echo -e "${GREEN}========= AA   AA LLLLLLL IIIII  JJJJJ  AA   AA   YYY   AA   AA ============${NC}"
+echo -e "${GREEN}========== TTTTT   AAA   PPPP    AAA   SSSSS   =============================${NC}"
+echo -e "${GREEN}============ T    AAAAA  P   P  AAAAA  S       =============================${NC}"
+echo -e "${GREEN}============ T   AA   AA PPPP  AA   AA  SSSSS   ============================${NC}"
+echo -e "${GREEN}============ T   AAAAAAA P     AAAAAAAA      S  ============================${NC}"
+echo -e "${GREEN}============ T   AA   AA P     AA     AA  SSSSS   ===========================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}========================= . Info 081-947-215-703 ===========================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
@@ -153,5 +153,5 @@ fi
 #Sukses
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}========== GenieACS UI akses port 3000. : http://$local_ip:3000 ============${NC}"
-echo -e "${GREEN}=================== Informasi: Whatsapp 081947215703 =======================${NC}"
+echo -e "${GREEN}============================== Velocity =====================================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
