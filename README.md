@@ -56,6 +56,27 @@ Yang akan diupdate, yaitu:
 cd
 ```
 ```
+```
 sudo mongorestore --db=genieacs --drop genieacs-backup/genieacs
+```
+```
 Genieacs port change
+
+```
+```
 sudo nano /usr/bin/genieacs-ui
+```
+```
+sudo systemctl enable genieacs-cwmp
+sudo systemctl start genieacs-cwmp
+sudo systemctl status genieacs-cwmp
+sudo systemctl enable genieacs-nbi
+sudo systemctl start genieacs-nbi
+sudo systemctl status genieacs-nbi
+sudo systemctl enable genieacs-fs
+sudo systemctl start genieacs-fs
+sudo systemctl status genieacs-fs
+sudo systemctl enable genieacs-ui
+sudo systemctl start genieacs-ui
+sudo systemctl status genieacs-ui
+```
