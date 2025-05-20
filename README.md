@@ -6,10 +6,10 @@ This is autoinstall GenieACS
 apt install git curl -y
 ```
 ```
-git clone https://github.com/tapasmodak642/acs.git
+git clone https://github.com/tapasmodak642/genieacs.git
 ```
 ```
-cd acs
+cd genieacs
 ```
 ```
 chmod +x install.sh && chmod +x darkmode.sh
